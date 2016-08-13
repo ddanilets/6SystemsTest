@@ -1,0 +1,127 @@
+.localeSelect{
+    width:15%;
+    position: absolute;
+    top:20px;
+    right: 10px;
+}
+.loader-hidden {
+    display: none;
+}
+.loader-active {
+    display: block;
+}
+
+.line-spin-fade-loader > div {
+    background-color: #000 !important;
+}
+
+.line-spin-fade-loader {
+    position: absolute !important;
+    top: 50vh !important;
+    left: 50% !important;
+}
+.modal-close-btn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+}
+.modal-close-btn:before,
+.modal-close-btn:after {
+    content: "";
+    position: absolute;
+    top: 21px;
+    left: 10px;
+    width: 26px;
+    height: 2px;
+    background: black;
+}
+.modal-close-btn:before {
+    webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.modal-close-btn:after {
+    webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.day{
+    width: 80px;
+    height:50px;
+    vertical-align: bottom;
+    border: 1px solid #E1E5EC;
+}
+.dayNumber{
+    position: relative;
+    top: -28px;
+    right: 2px;
+    float: right;
+    font-style: italic;
+}
+.clickable > .dayNumber{
+    margin-bottom: -60px;
+}
+.dayName{
+    height: 30px !important;
+    background: #f5f5f5;
+    text-align: right;
+}
+.otherMonth {
+    opacity: 0.3;
+    background: none !important;
+}
+.curMonth{
+}
+.monthName{
+    text-align: center;
+    font-size:15px;
+}
+.clickable{
+    cursor: pointer;
+}
+.clickable:hover{
+    opacity:0.8;
+}
+.month{
+    display: inline-block;
+    margin:0.3%;
+}
+.yearHeader{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.yearHeader h1{
+    display: inline-block;
+    margin-left:20px;
+    margin-right: 20px;
+}
+.yearHeader i{
+    margin-top:-5px;
+    cursor: pointer;
+}
+.calendar{
+    margin-left:3%;
+}
+.busy{
+    background: rgba(255, 239, 239, 0.98);
+}
+.free{
+
+}
+.header{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.cancelButton{
+    margin-left: 15px;
+}
+.btn{
+    margin-top:5px !important;
+}
+.tips{
+    width:70%;
+    margin: 1%;
+    font-size:1.2em;
+}
